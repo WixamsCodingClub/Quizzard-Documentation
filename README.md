@@ -10,7 +10,7 @@ Quizzard is a quiz app being built on different platforms to help people in the 
 
 The Quizzard app is very simple, it's a quiz game where the user is asked a series of multi-choice questions and after completing the game they are shown their score. 
 
-When the app launches the user is shown a Welcome screen which includes a button to start the quiz. The questions are obtained from a public API available on the internet and displayed in turn to the user on the Question screen. Once all the questions have been answered the user’s score is displayed on the Results screen. From there the user can choose to start a new quiz. By default the API returns 10 questions so for the basic version of the app the quiz contains 10 questions.
+When the app launches the user is shown a Welcome screen which includes a button to start the quiz. The questions are obtained from a public API available on the internet and displayed in turn to the user on the Question screen. Once all the questions have been answered the user’s score is displayed on the Results screen. When the Results screen is dismissed the user is returned to the Welcome screen from where they can choose to start a new quiz. By default the API returns 10 questions so for the basic version of the app the quiz contains 10 questions.
 
 ## Functionality
 There are three screens which make up the core functionality of Quizzard, each are discussed below:
@@ -55,13 +55,13 @@ Requirements:
 2. A 'End Quiz' button is displayed.
 3. When the user taps the 'End Quiz' button they are returned to the Welcome screen from where they can start a new quiz.
 
-## Extra optional functionality 
+## Extra Optional functionality 
 Some suggested improvements:
 * Allow for longer quizzes with more questions.
 * Select a difficulty rating (easy, medium or hard).
 * Select one or more categories of questions.
 
-## User Interface
+## User Interface Design
 The user interface design is to be worked on at a later stage. The developers of each of the projects can create their own design.
 
 A suggested UI for the Question screen is:
@@ -69,6 +69,9 @@ A suggested UI for the Question screen is:
 2. A correct answer is highlighted with green text.
 3. The incorrect answers are highlighted with red text.
 4. The chosen answer is inverted, black on green or black on red.
+
+## Screen Flow
+TBC (suggest overlay Welcome with Question screen, questions and results are side to side)
 
 ## Assets
 TBC
