@@ -71,7 +71,7 @@ A suggested UI for the Question screen is:
 4. The chosen answer is inverted, black on green or black on red.
 
 ## Screen Flow
-TBC (suggest overlay Welcome with Question screen, questions and results are side to side)
+TBC (suggested overlay Welcome with Question screen, questions and results are side to side)
 
 ## Assets
 TBC
